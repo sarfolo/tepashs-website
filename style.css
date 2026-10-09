@@ -1,0 +1,445 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+    
+    
+}
+
+
+.nav ul{
+    display: flex;
+    justify-content: right;
+    gap: 7px;
+     height: 8dvh;
+     width: 100%;
+    
+      
+}
+.nav ul li{
+    display: flex;
+    
+   
+}
+.nav ul li a{
+    margin-right: 15px;
+    text-decoration: none; 
+    color:white ;
+    padding-top: 12px;
+
+}
+
+.nav ul li a:hover{
+    color: rgb(232, 9, 9);
+    transform: translateY(-3px);
+    border-bottom: 5px solid white;
+   
+
+}
+.first img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+}
+.first{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+   
+   
+    
+
+}
+.photo img{
+    width: 500px;
+    height: 250px;
+    
+}
+.desc{
+    width: 30%;
+ 
+    
+}
+.snr{
+    color: blue;
+}
+.photo{
+    align-items: center;
+}
+.desc h1{
+    font-weight: 800px;
+    margin-bottom: 7px;
+    
+}
+.desc a{
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color:blue;
+    color: white;
+    border-radius: 5px;
+    
+  
+}
+.desc p{
+    margin-bottom: 20px;
+}
+.better{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 15px;
+}
+.change{
+    color:blue;
+}
+.pic img{
+    width: 50px;
+    height: 50px;
+
+}
+.one{
+    width: 20%;
+   border: 2px solid rgb(130, 129, 129);
+   align-items: center;
+   text-align: left;
+  
+}
+.feed{
+    padding: 10px 20px;
+}
+.feed h3{
+    margin-bottom: 3px;
+}
+.cards{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.nsm img{
+    width: 450px;
+    height: 300px;
+}
+.edition{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-top: 35px;
+    background-color:rgb(246, 246, 59);
+    height: 55dvh;
+}
+.chil{
+    color: blue;
+}
+.nsm{
+    width: 30%;
+}
+.num{
+    background-color:blue;
+    color: white;
+    border-radius: 50px;
+    width: 30px;
+    padding: 13px 23px;
+}
+.seperate{
+    display: flex;
+    margin-top: 15px;
+    gap: 15px;
+
+}
+.anchor{
+    text-decoration: none;
+    gap: 70px;
+    margin-top: 30px;
+}
+.gs{
+    background-color: blue;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    text-decoration: none; 
+    margin-right: 25px;
+}
+.rm{
+    border: 2px solid blue;
+    color:blue;
+    padding: 10px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.our{
+    width: 30%;
+}
+.new{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 25px;
+}
+.picture img{
+width: 500px;
+}
+.skuul{
+    color: blue;
+}
+.our h1{
+margin-bottom: 10px;
+}
+.our a{
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    
+}
+.our p{
+    margin-bottom: 20px;
+}
+.sharp{
+    color: blue;
+}
+.enroll{
+    width: 40%;
+    margin: 0 auto;
+   text-align: center;
+}
+.enroll h2{
+    margin-bottom: 5px;
+}
+.profile img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.sharp img{
+  width: 50px;
+    
+}
+.folo{
+    width: 20%;
+    border: 2px solid rgb(110, 109, 109);
+    
+   
+}
+
+.academia{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10dvh;
+    background-color: mediumseagreen;
+    padding: 0px 30px;
+    color: white;
+}
+.aca1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.aca1 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+
+}
+.aca2 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+.aca3 a{
+    text-decoration: none;
+    color: white;
+
+}
+.aca3{
+    gap: 5px;
+}
+
+.profile{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-top: 5px;
+}
+.duo{
+    color: blue;
+}
+.sharp p{
+color: black;
+
+}
+.sharp{
+    padding: 10px 20px;
+}
+.admin{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.great{
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    background-color:rgb(60, 59, 59);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 15px 15px;
+    border-radius: 3px;
+    position: relative;
+    top: 20px;
+}
+.handles img{
+width: 40px;
+height: 40px;
+border-radius: 50px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color:black;
+    color: white;
+    height: 25dvh;
+    align-items: center;
+    padding: 0px 25px;
+}
+.handles h4{
+    margin-bottom: 5px;
+}
+.handles{
+    text-align: center;
+}
+.over{
+    background-color: greenyellow;
+}
+.acada{
+height: 10dvh;
+background-color:cyan;
+justify-content: center;
+ gap: 10px;
+display: flex;
+align-items: center;
+
+}
+.campus{
+    color: blue;
+   
+
+}
+.acada img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+.entrance{
+    color: blue;
+}
+.camp{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+    padding-left: 30px;
+}
+.notice img{
+    height: 285px;
+    width: 720px;
+}
+.back a img{
+    position: relative;
+    right: 520px;
+}
+
+.preview{
+    position: relative;
+    height: 100dvh;
+    overflow: hidden;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.backvideo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100dvh;
+    z-index: 1;
+}
+.shadow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100dvh;
+    z-index: 2;
+    background: rgb(0, 0,0,0.5);
+}
+
+
+.adres{
+    z-index: 3;
+    color:yellow;
+}
+
+.cardet{
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    padding-left: 30px;
+}
+@media(max-width:700px){
+    .nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:orangered;
+    color: white;
+    padding: 10px 20px;
+}
+}
+
+@media(max-width:360px){
+     .nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:maroon;
+    color: white;
+    padding: 10px 20px;
+}
+}
